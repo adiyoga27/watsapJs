@@ -8,7 +8,10 @@ const { phoneNumberFormatter } = require('./helpers/formatter');
 const fileUpload = require('express-fileupload');
 const axios = require('axios');
 const { error } = require('console');
-const port = process.env.PORT || 8001;
+const process = require('process');
+require('dotenv').config()
+
+const port = process.env.APP_PORT || 8001;
 
 const app = express();
 const server = http.createServer(app);
