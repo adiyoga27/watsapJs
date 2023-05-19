@@ -1,0 +1,31 @@
+{
+  "name": "wajs",
+  "version": "1.0.0",
+  "description": "Whatsapp Server NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Wwebjs",
+    "whatsapp",
+    "wajs"
+  ],
+  "author": "Lucakerz",
+  "license": "ISC",
+  "dependencies": {
+    "admin-lte": "^3.2.0",
+    "axios": "^1.4.0",
+    "datatables.net-dt": "^1.13.4",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "process": "^0.11.10",
+    "puppeteer": "^20.2.1",
+    "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.6.1",
+    "whatsapp-web.js": "^1.19.5"
+  }
+}
